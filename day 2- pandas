@@ -1,0 +1,117 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPZNHNves8ThqImb0jYw2Gz",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/aryaraut13/100-days-of-aiml/blob/main/day%202-%20pandas\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "StjkYC5Amg2Z",
+        "outputId": "06a7cfdd-bf18-402b-cf0f-3bd9d88faee8"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Shape: (891, 12)\n",
+            "\n",
+            "Null counts:\n",
+            "PassengerId      0\n",
+            "Survived         0\n",
+            "Pclass           0\n",
+            "Name             0\n",
+            "Sex              0\n",
+            "Age            177\n",
+            "SibSp            0\n",
+            "Parch            0\n",
+            "Ticket           0\n",
+            "Fare             0\n",
+            "Cabin          687\n",
+            "Embarked         2\n",
+            "dtype: int64\n",
+            "\n",
+            "After cleaning — nulls remaining: 0\n",
+            "\n",
+            "Survival rate by class:\n",
+            "Pclass\n",
+            "1    0.63\n",
+            "2    0.47\n",
+            "3    0.24\n",
+            "Name: Survived, dtype: float64\n",
+            "\n",
+            "→ Replace Pclass with pricing tier.\n",
+            "→ Replace Survived with converted.\n",
+            "→ Same code. Any business dataset. Real decisions.\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "/tmp/ipykernel_4491/4107343973.py:12: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n",
+            "The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n",
+            "\n",
+            "For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n",
+            "\n",
+            "\n",
+            "  df[\"Age\"].fillna(df[\"Age\"].median(), inplace=True)\n"
+          ]
+        }
+      ],
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "df = pd.read_csv(\"https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv\")\n",
+        "\n",
+        "print(\"Shape:\", df.shape)\n",
+        "print(\"\\nNull counts:\")\n",
+        "print(df.isnull().sum())\n",
+        "# Age      177\n",
+        "# Cabin    687\n",
+        "# Embarked   2\n",
+        "\n",
+        "df[\"Age\"].fillna(df[\"Age\"].median(), inplace=True)\n",
+        "df.dropna(subset=[\"Embarked\"], inplace=True)\n",
+        "df.drop(columns=[\"Cabin\"], inplace=True)\n",
+        "\n",
+        "print(\"\\nAfter cleaning — nulls remaining:\", df.isnull().sum().sum())\n",
+        "\n",
+        "survival = df.groupby(\"Pclass\")[\"Survived\"].mean().round(2)\n",
+        "print(\"\\nSurvival rate by class:\")\n",
+        "print(survival)\n",
+        "\n",
+        "print(\"\\n→ Replace Pclass with pricing tier.\")\n",
+        "print(\"→ Replace Survived with converted.\")\n",
+        "print(\"→ Same code. Any business dataset. Real decisions.\")"
+      ]
+    }
+  ]
+}
