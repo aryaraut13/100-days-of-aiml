@@ -4,7 +4,7 @@ Going deep on every layer of AI/ML — from NumPy to RAG pipelines.
 Co-founder @ ReignAI | Building in public daily.
 
 ## Progress
-Day 6 / 100
+Day 15 / 100
 
 ## Phases
 | Phase | Topic | Days | Status |
