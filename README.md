@@ -15,10 +15,6 @@ Day 15 / 100
 | 4 | Deploy & Fine-tuning | 61–80 | ⬜ Upcoming |
 | 5 | System Design & Recap | 81–100 | ⬜ Upcoming |
 
-## Daily Log
-| Day | Topic | Notebook | Post |
-|-----|-------|----------|------|
-| 1 | NumPy | [day01](phase1-foundations/day01_numpy.ipynb) | [LinkedIn](#) |
 
 ## Connect
 - 🔗 LinkedIn: linkedin.com/in/aryaraut13
