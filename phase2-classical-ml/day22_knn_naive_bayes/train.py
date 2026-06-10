@@ -15,7 +15,7 @@ scaler  = StandardScaler()
 X_tr_sc = scaler.fit_transform(X_train)
 X_te_sc = scaler.transform(X_test)
 
-# ── KNN: find best K ─────────────────────────────────────────
+
 print("[KNN] Searching best K (1-20)...")
 result = find_best_k(X_tr_sc, y_train)
 best_k = result["best_k"]
