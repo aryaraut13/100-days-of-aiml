@@ -17,7 +17,6 @@ scaler = StandardScaler()
 X_tr   = scaler.fit_transform(X_train)
 X_te   = scaler.transform(X_test)
 
-# ── Default SVM ──────────────────────────────────────────────
 print("[SVM]  Training with default params (C=1, gamma=scale)...")
 default_model = train(X_tr, y_train)
 default_f1    = f1_score(y_test, default_model.predict(X_te))
