@@ -4,7 +4,7 @@ from anthropic import Anthropic
 from dotenv import load_dotenv
 
 load_dotenv()
-client = Anthropic(api_key=os.getenv("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"))
+client = Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
 def chat(system_prompt: str, user_message: str,
          temperature: float = 0.7) -> str:
