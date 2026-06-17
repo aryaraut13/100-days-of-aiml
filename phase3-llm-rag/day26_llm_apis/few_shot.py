@@ -1,4 +1,3 @@
-# day26_llm_apis/few_shot.py
 
 import os
 from anthropic import Anthropic
