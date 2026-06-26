@@ -1,0 +1,15 @@
+anthropic
+langchain
+langchain-anthropic
+langchain-chroma
+langchain-huggingface
+langchain-text-splitters
+langchain-community
+langchain-core
+chromadb
+sentence-transformers
+streamlit
+fastapi
+uvicorn
+python-dotenv
+pydantic
