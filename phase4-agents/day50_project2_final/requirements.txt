@@ -1,0 +1,11 @@
+anthropic
+langchain
+langchain-anthropic
+langchain-community
+langchain-core
+langgraph
+chromadb
+sentence-transformers
+streamlit
+python-dotenv
+pydantic
