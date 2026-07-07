@@ -63,7 +63,7 @@ No fluff. No certificates. Just real code, real output, real GitHub commits.
 │   └── day50_project2_final/
 └── projects/
 ├── project1-rag-bot/
-└── project3-churn-prediction/
+└── project3-churn-prediction
 ---
 
 ## 📅 Daily Log
