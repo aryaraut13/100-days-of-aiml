@@ -21,6 +21,8 @@ No fluff. No certificates. Just real code, real output, real GitHub commits.
 ---
 
 ## 📁 Structure
+
+```text
 100-days-of-aiml/
 ├── phase1-foundations/           # Days 1–15
 ├── phase2-classical-ml/          # Days 16–25
@@ -62,10 +64,9 @@ No fluff. No certificates. Just real code, real output, real GitHub commits.
 │   ├── day49_project2_ui/
 │   └── day50_project2_final/
 └── projects/
-├── project1-rag-bot/
-└── project3-churn-prediction
----
-
+    ├── project1-rag-bot/
+    └── project3-churn-prediction/
+```
 ## 📅 Daily Log
 
 | Day | Topic | Key Output |
