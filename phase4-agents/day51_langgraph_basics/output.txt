@@ -1,0 +1,17 @@
+﻿============================================================
+DAY 51 - LANGGRAPH BASICS - STATE MACHINE EXECUTION
+============================================================
+
+--- EXECUTION LOG ---
+Step 1: analyze -> words=9, chars=69
+Step 2: transform -> text upper-cased
+Step 3: summarize -> done
+
+--- FINAL STATE ---
+Original word count : 9
+Original char count : 69
+Steps completed     : 3
+Final text          : LANGGRAPH MAKES BUILDING AI AGENT WORKFLOWS STRUCTURED AND DEBUGGABLE
+
+Total execution time: 0.0194s
+============================================================
