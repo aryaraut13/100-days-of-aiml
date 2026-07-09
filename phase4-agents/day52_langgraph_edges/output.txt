@@ -1,0 +1,48 @@
+﻿[LANGGRAPH ù CONDITIONAL EDGES]
+
+Flow: START -> classify -> [technical OR general] -> END
+
+Query: What is gradient descent in machine learning?
+  [CLASSIFY] 'What is gradient descent in machine lear...' -> technical
+  [TECHNICAL NODE] handling query
+Response: [TECHNICAL] # Gradient Descent in Machine Learning
+
+Gradient descent is an optimization algorithm th...
+
+Query: What should I have for breakfast?
+  [CLASSIFY] 'What should I have for breakfast?...' -> general
+  [GENERAL NODE] handling query
+Response: [GENERAL] # Breakfast Ideas
+
+A great breakfast combines something with protein and whole grains to k...
+
+Query: How does a transformer architecture work?
+  [CLASSIFY] 'How does a transformer architecture work...' -> technical
+  [TECHNICAL NODE] handling query
+Response: [TECHNICAL] # Transformer Architecture
+
+A transformer uses **self-attention mechanisms** to process ...
+
+Query: What is the capital of France?
+  [CLASSIFY] 'What is the capital of France?...' -> general
+  [GENERAL NODE] handling query
+Response: [GENERAL] Paris is the capital of France! It's a beautiful city located in the north-central part of...
+
+[CUSTOMER SUPPORT ROUTING ù CONDITIONAL BRANCHING]
+
+Customer: Thank you! My order arrived and it's perfect!...
+  [SENTIMENT] positive | escalate: False
+Response: [STANDARD] That's wonderful to hear û thank you so much for letting us know, and we're thrilled your...
+
+Customer: This is absolutely terrible. My order is 2 weeks late and no...
+  [SENTIMENT] negative | escalate: True
+Response: [ESCALATED] I sincerely apologize for this frustrating experienceùa 2-week delay with no communicati...
+
+Customer: When will my order arrive?...
+  [SENTIMENT] neutral | escalate: False
+Response: [STANDARD] We'd be happy to help you track your orderùcould you please share your order number so we...
+
+Customer: I've been waiting for 3 weeks. This is unacceptable. I want ...
+  [SENTIMENT] negative | escalate: True
+Response: [ESCALATED] I completely understand your frustration after waiting three weeksùthat's far too longùa...
+
