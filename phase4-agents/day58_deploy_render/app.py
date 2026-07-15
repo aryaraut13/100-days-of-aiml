@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+
 from langchain_core.caches import BaseCache
 from langchain_core.callbacks import Callbacks
 from langchain_anthropic import ChatAnthropic
@@ -24,6 +25,12 @@ app.add_middleware(
 )
 
 api_key = os.getenv("ANTHROPIC_API_KEY")
+
+# langchain_core only imports BaseCache/Callbacks under TYPE_CHECKING,
+# so pydantic can't resolve ChatAnthropic's forward refs on its own.
+# Explicit rebuild forces it to resolve using this module's namespace.
+ChatAnthropic.model_rebuild()
+
 llm = None
 if api_key:
     llm = ChatAnthropic(
