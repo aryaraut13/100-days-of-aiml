@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from langchain_core.caches import BaseCache
+from langchain_core.callbacks import Callbacks
 from langchain_anthropic import ChatAnthropic
 from langchain_core.messages import HumanMessage
 
@@ -22,20 +24,24 @@ app.add_middleware(
 )
 
 api_key = os.getenv("ANTHROPIC_API_KEY")
+llm = None
+if api_key:
+    llm = ChatAnthropic(
+        model="claude-haiku-4-5-20251001",
+        api_key=api_key,
+        max_tokens=500
+    )
 
-llm = ChatAnthropic(
-    model="claude-haiku-4-5-20251001",
-    api_key=api_key,
-    max_tokens=500
-)
 
 class ResearchRequest(BaseModel):
     query: str
+
 
 class ResearchResponse(BaseModel):
     query: str
     result: str
     status: str
+
 
 @app.get("/")
 def root():
@@ -46,15 +52,17 @@ def root():
         "docs": "/docs"
     }
 
+
 @app.get("/health")
 def health():
     return {"status": "healthy"}
+
 
 @app.post("/research", response_model=ResearchResponse)
 def research(request: ResearchRequest):
     if not request.query.strip():
         raise HTTPException(status_code=400, detail="Query cannot be empty")
-    if not api_key:
+    if llm is None:
         raise HTTPException(status_code=500, detail="ANTHROPIC_API_KEY is not set")
     try:
         response = llm.invoke([
