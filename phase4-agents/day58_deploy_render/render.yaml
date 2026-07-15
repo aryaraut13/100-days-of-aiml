@@ -1,8 +1,8 @@
-# day58_deploy_render/render.yaml
 services:
   - type: web
     name: market-research-agent
     runtime: docker
+    rootDir: day58_deploy_render
     dockerfilePath: ./Dockerfile
     envVars:
       - key: ANTHROPIC_API_KEY
