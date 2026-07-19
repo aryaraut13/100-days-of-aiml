@@ -1,4 +1,3 @@
-# day33_retrieval_chain/qa_chain.py
 import os
 from dotenv import load_dotenv
 from langchain_anthropic import ChatAnthropic

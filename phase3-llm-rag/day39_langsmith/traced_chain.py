@@ -1,4 +1,3 @@
-# day39_langsmith/traced_chain.py
 import os
 from dotenv import load_dotenv
 from langchain_anthropic import ChatAnthropic

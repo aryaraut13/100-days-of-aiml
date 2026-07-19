@@ -1,4 +1,3 @@
-# day59_api_security/main.py
 import os
 from dotenv import load_dotenv
 from fastapi import FastAPI, Depends, HTTPException

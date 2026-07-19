@@ -1,4 +1,3 @@
-# day31_langchain_basics/prompt_templates.py
 import os
 from dotenv import load_dotenv
 from langchain_anthropic import ChatAnthropic

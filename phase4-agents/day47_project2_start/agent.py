@@ -1,5 +1,3 @@
-import sys
-sys.stdout.reconfigure(encoding='utf-8')
 import os
 from dotenv import load_dotenv
 from langchain_anthropic import ChatAnthropic

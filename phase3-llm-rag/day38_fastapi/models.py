@@ -1,4 +1,3 @@
-# day38_fastapi/models.py
 from pydantic import BaseModel
 from typing import Optional
 

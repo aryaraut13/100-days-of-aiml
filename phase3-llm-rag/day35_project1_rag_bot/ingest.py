@@ -1,7 +1,3 @@
-"""
-Ingest documents into ChromaDB vector store.
-Run this once before starting the app.
-"""
 from langchain_community.document_loaders import TextLoader
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings

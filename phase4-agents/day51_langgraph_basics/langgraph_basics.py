@@ -1,8 +1,3 @@
-"""
-Day 51 - LangGraph Basics: State Machines and Graphs
-Building a simple 3-node state graph to understand LangGraph fundamentals
-"""
-
 from typing import TypedDict
 from langgraph.graph import StateGraph, END
 import time

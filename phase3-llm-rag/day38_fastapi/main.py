@@ -1,4 +1,3 @@
-# day38_fastapi/main.py
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from models import QuestionRequest, AnswerResponse

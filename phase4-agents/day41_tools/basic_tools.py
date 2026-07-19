@@ -1,4 +1,3 @@
-# day41_tools/basic_tools.py
 import os
 import math
 from dotenv import load_dotenv
@@ -7,8 +6,6 @@ from langchain_anthropic import ChatAnthropic
 
 load_dotenv()
 
-
-# Tools are just functions with the @tool decorator
 @tool
 def calculator(expression: str) -> str:
     """

@@ -1,4 +1,3 @@
-# day54_web_search_agent/agent.py
 import os
 from dotenv import load_dotenv
 from langchain_anthropic import ChatAnthropic

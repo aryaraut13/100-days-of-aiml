@@ -1,4 +1,3 @@
-# day41_tools/custom_tools.py
 import os
 import json
 from dotenv import load_dotenv

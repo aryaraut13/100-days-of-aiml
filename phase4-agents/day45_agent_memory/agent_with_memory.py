@@ -1,4 +1,3 @@
-# day45_agent_memory/agent_with_memory.py
 import os
 from dotenv import load_dotenv
 from langchain_anthropic import ChatAnthropic

@@ -1,4 +1,3 @@
-# day57_docker_basics/app.py
 import os
 from dotenv import load_dotenv
 from fastapi import FastAPI

@@ -1,4 +1,3 @@
-# day37_ragas_eval/test_questions.py
 """
 Test dataset for RAGAS evaluation.
 questions: what we ask

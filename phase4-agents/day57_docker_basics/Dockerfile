@@ -1,5 +1,3 @@
-# day57_docker_basics/Dockerfile
-
 # Base image
 FROM python:3.11-slim
 
