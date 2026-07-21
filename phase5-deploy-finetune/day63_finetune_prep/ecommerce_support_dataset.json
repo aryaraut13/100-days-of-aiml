@@ -1,0 +1,16 @@
+{"text":"How do I return a product?","label":0,"category":"returns"}
+{"text":"I want to send back my order","label":0,"category":"returns"}
+{"text":"Can I get a refund on my purchase?","label":0,"category":"returns"}
+{"text":"The item I received is damaged","label":0,"category":"returns"}
+{"text":"When will my order arrive?","label":1,"category":"shipping"}
+{"text":"Track my shipment please","label":1,"category":"shipping"}
+{"text":"My package is delayed","label":1,"category":"shipping"}
+{"text":"What delivery options do you have?","label":1,"category":"shipping"}
+{"text":"What payment methods do you accept?","label":2,"category":"payment"}
+{"text":"Can I pay with UPI?","label":2,"category":"payment"}
+{"text":"My payment failed at checkout","label":2,"category":"payment"}
+{"text":"Do you accept credit cards?","label":2,"category":"payment"}
+{"text":"Is my product under warranty?","label":3,"category":"warranty"}
+{"text":"How do I claim warranty?","label":3,"category":"warranty"}
+{"text":"My product stopped working after 2 months","label":3,"category":"warranty"}
+{"text":"What is the warranty period?","label":3,"category":"warranty"}
