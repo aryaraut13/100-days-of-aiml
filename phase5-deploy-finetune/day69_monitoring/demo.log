@@ -1,0 +1,8 @@
+{"timestamp": "2026-07-26T13:56:04.676011", "level": "INFO", "event": "llm_request", "query": "How do I return a product?", "category": "returns", "latency_ms": 1523.4, "tokens": 487, "cached": false}
+{"timestamp": "2026-07-26T13:56:04.677444", "level": "INFO", "event": "llm_request", "query": "Where is my order?", "category": "shipping", "latency_ms": 1201.7, "tokens": 432, "cached": false}
+{"timestamp": "2026-07-26T13:56:04.677630", "level": "INFO", "event": "llm_request", "query": "How do I return a product?", "category": "returns", "latency_ms": 48.2, "tokens": 0, "cached": true}
+{"timestamp": "2026-07-26T13:56:04.678186", "level": "INFO", "event": "llm_request", "query": "Payment failed", "category": "payment", "latency_ms": 1678.9, "tokens": 521, "cached": false}
+{"timestamp": "2026-07-26T13:56:04.678517", "level": "INFO", "event": "llm_request", "query": "Warranty claim", "category": "warranty", "latency_ms": 1334.5, "tokens": 468, "cached": false}
+{"timestamp": "2026-07-26T13:56:04.678729", "level": "DEBUG", "event": "metric", "metric": "cache_hit_rate", "value": 0.2, "unit": "%"}
+{"timestamp": "2026-07-26T13:56:04.678852", "level": "DEBUG", "event": "metric", "metric": "avg_latency", "value": 1434.6, "unit": "ms"}
+{"timestamp": "2026-07-26T13:56:04.678907", "level": "DEBUG", "event": "metric", "metric": "total_tokens", "value": 1908, "unit": "tokens"}
