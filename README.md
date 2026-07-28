@@ -1,72 +1,5 @@
-# 100 Days of AI/ML 🤖
-
-Building AI/ML from scratch — one day, one concept, one commit.
-
-**Co-founder going deep on the full AI/ML stack. Building in public daily.**
-No fluff. No certificates. Just real code, real output, real GitHub commits.
-
 ---
 
-## 🗺️ Roadmap
-
-| Phase | Days | Topic | Status |
-|-------|------|-------|--------|
-| Phase 1 | 1–15 | Math & Data Foundations | ✅ Done |
-| Phase 2 | 16–25 | Classical ML Algorithms | ✅ Done |
-| Phase 3 | 26–40 | LLM APIs, Embeddings, RAG, LangChain | ✅ Done |
-| Phase 4 | 41–60 | AI Agents, Tools, LangChain Agents | 🔄 In Progress |
-| Phase 5 | 61–80 | Deploy, FastAPI, Fine-tuning | ⏳ Upcoming |
-| Phase 6 | 81–100 | System Design + Job Push | ⏳ Upcoming |
-
----
-
-## 📁 Structure
-
-```text
-100-days-of-aiml/
-├── phase1-foundations/           # Days 1–15
-├── phase2-classical-ml/          # Days 16–25
-│   ├── day16_linear_regression/
-│   ├── day17_logistic_regression/
-│   ├── day18_decision_trees/
-│   ├── day19_random_forest/
-│   ├── day20_evaluation/
-│   ├── day21_cross_validation/
-│   ├── day22_knn_naive_bayes/
-│   ├── day23_svm/
-│   ├── day24_xgboost/
-│   └── day25_churn_prediction/
-├── phase3-llm-rag/               # Days 26–40
-│   ├── day26_llm_apis/
-│   ├── day27_prompt_engineering/
-│   ├── day28_embeddings/
-│   ├── day29_vector_db/
-│   ├── day30_rag_pipeline/
-│   ├── day31_langchain_basics/
-│   ├── day32_document_loaders/
-│   ├── day33_retrieval_chain/
-│   ├── day34_memory/
-│   ├── day35_project1_rag_bot/
-│   ├── day36_output_parsers/
-│   ├── day37_ragas_eval/
-│   ├── day38_fastapi/
-│   ├── day39_langsmith/
-│   └── day40_project1_final/
-├── phase4-agents/                # Days 41–60
-│   ├── day41_tools/
-│   ├── day42_react_agent/
-│   ├── day43_langchain_agents/
-│   ├── day44_multi_tool_agent/
-│   ├── day45_agent_memory/
-│   ├── day46_agent_debugging/
-│   ├── day47_project2_start/
-│   ├── day48_project2_tools/
-│   ├── day49_project2_ui/
-│   └── day50_project2_final/
-└── projects/
-    ├── project1-rag-bot/
-    └── project3-churn-prediction/
-```
 ## 📅 Daily Log
 
 | Day | Topic | Key Output |
@@ -77,7 +10,7 @@ No fluff. No certificates. Just real code, real output, real GitHub commits.
 | 04 | Statistics | Normal distribution, 68-95-99.7 rule |
 | 05 | Linear Algebra | Matrix multiply, forward pass |
 | 06 | Probability | Bayes theorem, distributions |
-| 07 | EDA | Full exploratory analysis — Titanic |
+| 07 | EDA | Full exploratory analysis |
 | 08 | Data Cleaning | Nulls, outliers, encoding |
 | 09 | Feature Engineering | New features, scaling |
 | 10 | Pipeline | End-to-end data pipeline |
@@ -101,7 +34,7 @@ No fluff. No certificates. Just real code, real output, real GitHub commits.
 | 32 | Document Loaders | Text splitter, chunk size comparison |
 | 33 | Retrieval Chain | Full LangChain RAG in 30 lines |
 | 34 | Memory | Multi-turn chat, session isolation |
-| 35 | Project 1 — RAG Bot | Streamlit UI + ChromaDB + Claude |
+| 35 | Project 1 RAG Bot | Streamlit UI + ChromaDB + Claude |
 | 36 | Output Parsers | Pydantic parser, structured extraction |
 | 37 | RAG Evaluation | 5/5 questions, avg score 0.78 |
 | 38 | FastAPI | REST API — POST /ask endpoint |
@@ -116,7 +49,27 @@ No fluff. No certificates. Just real code, real output, real GitHub commits.
 | 47 | Project 2 Start | Market research tools + agent |
 | 48 | Project 2 Tools | Competitor analysis, report writer |
 | 49 | Project 2 UI | Streamlit agent interface |
-| 50 | Project 2 Final | README, Phase 4 midpoint recap |
+| 50 | Project 2 Final | Phase 4 midpoint recap |
+| 51 | LangGraph Basics | StateGraph, nodes, edges, state flow |
+| 52 | Conditional Edges | Sentiment-based routing |
+| 53 | Multi-Agent | Supervisor + worker pattern |
+| 54 | Web Search Agent | Tavily real-time search |
+| 55 | Agent Evaluation | 80% pass rate, 2.8s avg latency |
+| 56 | Deploy Prep | Health checks, pinned dependencies |
+| 57 | Docker | Containerized AI app |
+| 58 | Render Deploy | Live API URL |
+| 59 | API Security | Key auth + rate limiting |
+| 60 | Phase 4 Final | Complete recap |
+| 61 | HuggingFace Basics | Pipelines, tokenizers, inference |
+| 62 | Advanced Embeddings | 3 models compared, batch embedding |
+| 63 | Fine-tuning Prep | 16 samples, 4 classes, tokenization |
+| 64 | LoRA Fine-tuning | 0.44% trainable params, 100% accuracy |
+| 65 | Fine-tuning Eval | Base 33% to fine-tuned 100% |
+| 66 | Advanced Streamlit | 4-page app with session state |
+| 67 | Advanced FastAPI | Middleware, async batch, background tasks |
+| 68 | System Design | Cache simulation, cost estimation |
+| 69 | Monitoring | P95=1746ms, cache hit rate 40% |
+| 70 | Phase 5 Midpoint | Complete recap |
 
 ---
 
@@ -124,18 +77,17 @@ No fluff. No certificates. Just real code, real output, real GitHub commits.
 
 ### Project 1 — Ecommerce RAG Support Bot
 **Stack:** LangChain + ChromaDB + Claude + FastAPI + Streamlit + LangSmith
-**What it does:** Answers customer support questions from a FAQ knowledge base. Grounded responses only — no hallucination.
+**Metric:** 5/5 test questions correct, avg overlap score 0.78
 **Folder:** `phase3-llm-rag/day35_project1_rag_bot/`
 
 ### Project 2 — Ecommerce Market Research Agent
 **Stack:** LangChain Agents + LangGraph + Claude + Streamlit
-**What it does:** Autonomously researches ecommerce markets, analyzes competitors, and generates structured reports.
-**Tools:** Product search, price segments, market trends, review analysis, competitor analysis, report writing
+**Metric:** Full market report in under 60 seconds, 6 tools
 **Folder:** `phase4-agents/day49_project2_ui/`
 
 ### Project 3 — Churn Prediction Pipeline
 **Stack:** Scikit-learn + XGBoost + FastAPI + Pickle
-**What it does:** Predicts customer churn from raw customer data. XGBoost — F1: 0.631, ROC-AUC: 0.873
+**Metric:** F1=0.631, ROC-AUC=0.873
 **Folder:** `projects/project3-churn-prediction/`
 
 ---
@@ -146,7 +98,9 @@ No fluff. No certificates. Just real code, real output, real GitHub commits.
 
 **Phase 3:** Anthropic Claude, LangChain, ChromaDB, HuggingFace, FastAPI, Streamlit, LangSmith
 
-**Phase 4:** LangGraph, LangChain Agents, ReAct, MemorySaver, Custom Tools
+**Phase 4:** LangGraph, ReAct, MemorySaver, Docker, Render, API Security
+
+**Phase 5:** HuggingFace Transformers, LoRA/PEFT, Advanced FastAPI, System Design, Monitoring
 
 ---
 
