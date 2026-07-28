@@ -1,4 +1,3 @@
-# day67_fastapi_advanced/middleware.py
 import time
 import logging
 from fastapi import Request, Response

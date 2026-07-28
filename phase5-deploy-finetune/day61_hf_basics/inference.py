@@ -1,4 +1,3 @@
-# day61_hf_basics/inference.py
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 

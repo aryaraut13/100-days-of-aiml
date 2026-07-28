@@ -1,4 +1,3 @@
-# day67_fastapi_advanced/main.py
 import os
 import time
 import asyncio

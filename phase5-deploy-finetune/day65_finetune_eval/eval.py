@@ -1,4 +1,3 @@
-# day65_finetune_eval/eval.py
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 

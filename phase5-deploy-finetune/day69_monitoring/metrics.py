@@ -1,4 +1,3 @@
-# day69_monitoring/metrics.py
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 

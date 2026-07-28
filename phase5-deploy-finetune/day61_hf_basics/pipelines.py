@@ -1,4 +1,3 @@
-# day61_hf_basics/pipelines.py
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
