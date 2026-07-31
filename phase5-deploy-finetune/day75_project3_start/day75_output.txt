@@ -1,0 +1,90 @@
+﻿[PROJECT 3 ΓÇö PRODUCT RESEARCH AGENT]
+
+============================================================
+
+User: I have a budget of Rs.25000 and I want the best headphones for music. What should I buy?
+
+Agent: Based on your budget of Rs.25000 and preference for music listening, here's my recommendation:
+
+## **Top Pick: Sony WH-1000XM5 (Rs.23,490)**
+This is the best choice for music enthusiasts within your budget. Here's why:
+- **Industry-leading ANC**: Among the best noise cancellation available
+- **Exceptional Sound Quality**: Perfect for music with rich, detailed audio
+- **Comfort**: Designed for long listening sessions
+- **Great Value**: Leaves some room in your budget for accessories
+
+## **Runner-Up: Apple AirPods Pro (Rs.22,900)**
+If you're an iPhone user, this is an excellent alternative with:
+- Seamless integration with Apple devices
+- Good sound quality
+- Convenient wireless connectivity
+
+## **My Advice:**
+If you listen to music frequently and want the absolute best audio experience with excellent noise cancellation, go with the **Sony WH-1000XM5**. The combination of superior sound quality, ANC, and comfort makes it ideal for music lovers.
+
+Would you like me to search for current availability and pricing of these headphones, or get customer reviews to help you make a final decision?
+
+============================================================
+
+User: Compare Sony WH-1000XM5 vs Apple AirPods Pro
+
+Agent: ## Sony WH-1000XM5 vs Apple AirPods Pro Comparison
+
+Here's how these two premium audio devices stack up:
+
+| Feature | Sony WH-1000XM5 | Apple AirPods Pro |
+|---------|-----------------|-------------------|
+| **Price** | Rs. 23,490 | Rs. 22,900 |
+| **Rating** | 4.6/5 | 4.7/5 Γ¡É |
+| **Noise Cancellation** | Yes | Yes |
+| **Battery Life** | 30 hours | 30 hours |
+| **Category** | Premium | Premium |
+
+### Key Takeaway:
+**Apple AirPods Pro** is the recommended choice! It edges out the Sony model by:
+- Being **Rs. 590 cheaper**
+- Having a **slightly higher rating** (4.7 vs 4.6)
+- Matching performance on battery life and ANC
+
+**Choose Sony WH-1000XM5 if:**
+- You prefer over-ear design
+- You're heavily invested in the Android/Windows ecosystem
+- You want additional comfort for extended wear
+
+**Choose Apple AirPods Pro if:**
+- You're in the Apple ecosystem (iPhone, Mac, iPad)
+- You prefer earbuds design with portability
+- You want better overall value and ratings
+
+Would you like me to get detailed customer reviews for either product to help with your decision?
+
+============================================================
+
+User: I need headphones under Rs.1500 for casual listening. What do you recommend?
+
+Agent: Based on your budget of Rs.1500 and casual listening needs, here's my recommendation:
+
+**Top Pick: boAt Rockerz 450 (Rs.999)**
+- This is the best option within your budget
+- Great bass quality perfect for casual listening
+- Excellent battery life
+- Well under your budget limit, leaving room for other audio products if needed
+
+**Why this recommendation:**
+- **Value for money**: You get premium features at a budget-friendly price
+- **Casual listening**: Perfect for everyday music, podcasts, and videos
+- **Battery life**: Won't drain quickly for regular use
+- **Bass-heavy sound**: Great if you enjoy bass-forward music
+
+**What to know:**
+- Don't expect noise cancellation (Active Noise Cancellation) at this price point - that's a premium feature typically found in higher-priced models
+
+**Budget note:** 
+The runner-up option (JBL Tune 510BT at Rs.2199) exceeds your budget, so the boAt Rockerz 450 is your best bet while staying within Rs.1500.
+
+Would you like me to:
+1. Search for more details about the boAt Rockerz 450?
+2. Get customer reviews for this product?
+3. Look for alternative options in your budget?
+
+============================================================
