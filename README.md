@@ -1,3 +1,99 @@
+# 100 Days of AI/ML 🤖
+
+Building AI/ML from scratch — one day, one concept, one commit.
+
+**Co-founder going deep on the full AI/ML stack. Building in public daily.**
+No fluff. No certificates. Just real code, real output, real GitHub commits.
+
+---
+
+## 🗺️ Roadmap
+
+| Phase | Days | Topic | Status |
+|-------|------|-------|--------|
+| Phase 1 | 1–15 | Math & Data Foundations | ✅ Done |
+| Phase 2 | 16–25 | Classical ML Algorithms | ✅ Done |
+| Phase 3 | 26–40 | LLM APIs, Embeddings, RAG, LangChain | ✅ Done |
+| Phase 4 | 41–60 | AI Agents, LangGraph, Deployment | ✅ Done |
+| Phase 5 | 61–80 | Fine-tuning, Advanced RAG, System Design | ✅ Done |
+| Phase 6 | 81–100 | Job Push + Final Projects | 🔄 In Progress |
+
+---
+
+## 📁 Structure
+100-days-of-aiml/
+├── phase1-foundations/
+├── phase2-classical-ml/
+│ ├── day16_linear_regression/
+│ ├── day17_logistic_regression/
+│ ├── day18_decision_trees/
+│ ├── day19_random_forest/
+│ ├── day20_evaluation/
+│ ├── day21_cross_validation/
+│ ├── day22_knn_naive_bayes/
+│ ├── day23_svm/
+│ ├── day24_xgboost/
+│ └── day25_churn_prediction/
+├── phase3-llm-rag/
+│ ├── day26_llm_apis/
+│ ├── day27_prompt_engineering/
+│ ├── day28_embeddings/
+│ ├── day29_vector_db/
+│ ├── day30_rag_pipeline/
+│ ├── day31_langchain_basics/
+│ ├── day32_document_loaders/
+│ ├── day33_retrieval_chain/
+│ ├── day34_memory/
+│ ├── day35_project1_rag_bot/
+│ ├── day36_output_parsers/
+│ ├── day37_ragas_eval/
+│ ├── day38_fastapi/
+│ ├── day39_langsmith/
+│ └── day40_project1_final/
+├── phase4-agents/
+│ ├── day41_tools/
+│ ├── day42_react_agent/
+│ ├── day43_langchain_agents/
+│ ├── day44_multi_tool_agent/
+│ ├── day45_agent_memory/
+│ ├── day46_agent_debugging/
+│ ├── day47_project2_start/
+│ ├── day48_project2_tools/
+│ ├── day49_project2_ui/
+│ ├── day50_project2_final/
+│ ├── day51_langgraph_basics/
+│ ├── day52_langgraph_edges/
+│ ├── day53_langgraph_multiagent/
+│ ├── day54_web_search_agent/
+│ ├── day55_agent_evaluation/
+│ ├── day56_project2_deploy_prep/
+│ ├── day57_docker_basics/
+│ ├── day58_deploy_render/
+│ ├── day59_api_security/
+│ └── day60_phase4_final/
+├── phase5-deploy-finetune/
+│ ├── day61_hf_basics/
+│ ├── day62_embeddings_advanced/
+│ ├── day63_finetune_prep/
+│ ├── day64_finetune_lora/
+│ ├── day65_finetune_eval/
+│ ├── day66_streamlit_advanced/
+│ ├── day67_fastapi_advanced/
+│ ├── day68_system_design/
+│ ├── day69_monitoring/
+│ ├── day70_phase5_midpoint/
+│ ├── day71_vector_db_advanced/
+│ ├── day72_rag_advanced/
+│ ├── day73_agent_patterns/
+│ ├── day74_llm_optimization/
+│ ├── day75_project3_start/
+│ ├── day76_project3_build/
+│ ├── day77_interview_prep/
+│ └── day78_portfolio_prep/
+└── projects/
+├── project1-rag-bot/
+├── project2-market-research/
+└── project3-churn-prediction/
 ---
 
 ## 📅 Daily Log
@@ -70,6 +166,14 @@
 | 68 | System Design | Cache simulation, cost estimation |
 | 69 | Monitoring | P95=1746ms, cache hit rate 40% |
 | 70 | Phase 5 Midpoint | Complete recap |
+| 71 | Advanced ChromaDB | Persistent collections, filtering |
+| 72 | Hybrid RAG | Semantic + BM25 + reranking |
+| 73 | Agent Patterns | Plan-execute and reflection |
+| 74 | LLM Optimization | 50% cache hit rate, 48% latency reduction |
+| 75 | Project 3 Start | 4 product research tools built |
+| 76 | Project 3 Build | Streamlit product research UI |
+| 77 | Interview Prep | 10/10 concepts covered |
+| 78 | Portfolio Prep | 3 project writeups + resume tips |
 
 ---
 
@@ -85,10 +189,10 @@
 **Metric:** Full market report in under 60 seconds, 6 tools
 **Folder:** `phase4-agents/day49_project2_ui/`
 
-### Project 3 — Churn Prediction Pipeline
-**Stack:** Scikit-learn + XGBoost + FastAPI + Pickle
-**Metric:** F1=0.631, ROC-AUC=0.873
-**Folder:** `projects/project3-churn-prediction/`
+### Project 3 — Product Research Agent
+**Stack:** LangChain Agents + Claude + Streamlit
+**Metric:** Personalised recommendations in under 30 seconds
+**Folder:** `phase5-deploy-finetune/day76_project3_build/`
 
 ---
 
@@ -101,6 +205,8 @@
 **Phase 4:** LangGraph, ReAct, MemorySaver, Docker, Render, API Security
 
 **Phase 5:** HuggingFace Transformers, LoRA/PEFT, Advanced FastAPI, System Design, Monitoring
+
+**Phase 6:** Job Push, Portfolio Polish, Interview Prep
 
 ---
 
