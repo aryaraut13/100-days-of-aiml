@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "company": "Sarvam AI",
+    "role": "AI Engineer",
+    "tier": 2,
+    "url": "sarvam.ai/careers",
+    "status": "interview_scheduled",
+    "applied_date": "2026-08-11",
+    "follow_up": null,
+    "notes": "HR call on Monday"
+  },
+  {
+    "id": 2,
+    "company": "Haptik",
+    "role": "LLM Engineer",
+    "tier": 2,
+    "url": "haptik.ai/careers",
+    "status": "applied",
+    "applied_date": "2026-08-11",
+    "follow_up": null,
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "company": "Yellow.ai",
+    "role": "AI Engineer",
+    "tier": 2,
+    "url": "yellow.ai/careers",
+    "status": "rejected",
+    "applied_date": "2026-08-11",
+    "follow_up": null,
+    "notes": "No response after follow-up"
+  },
+  {
+    "id": 4,
+    "company": "Krutrim",
+    "role": "ML Engineer",
+    "tier": 2,
+    "url": "krutrim.com/careers",
+    "status": "applied",
+    "applied_date": "2026-08-11",
+    "follow_up": null,
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "company": "Observe.AI",
+    "role": "AI Engineer",
+    "tier": 2,
+    "url": "observe.ai/careers",
+    "status": "applied",
+    "applied_date": "2026-08-11",
+    "follow_up": null,
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "company": "Sarvam AI",
+    "role": "Applied AI Research",
+    "tier": 1,
+    "url": "sarvam.ai/careers",
+    "status": "applied",
+    "applied_date": "2026-08-11",
+    "follow_up": null,
+    "notes": ""
+  }
+]
